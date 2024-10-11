@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <meta name="author" content="Matthew Vollo">
+  <meta name="description" content="A mini-project where I utalize Tailwind CSS and html
+  to make a website.">
+
+  <title>Mangelo&#39;s</title> 
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="w-full min-h-screen bg-[url('images/image.png')] bg-center bg-cover px-24 py-5 relative">
+    <nav class="flex items-center">
+      <h1> <a href="#" class="no-underline text-white font-bold text-lg px-2 cursor-pointer"> Mangelo&#39;s</a></h1>
+      <ul class="flex-1 text-center"> 
+        <li class="list-none inline-block px-5"> <a href="#" class="no-underline text-white px-2">Home</a></li>
+        <li class="list-none inline-block px-5"> <a href="#" class="no-underline text-white px-2" >About</a></li>
+        <li class="list-none inline-block px-5"> <a href="#" class="no-underline text-white px-2" >Exhibitions</a></li>
+        <li class="list-none inline-block px-5"> <a href="#" class="no-underline text-white px-2" >Download</a></li>
+      </ul>
+      <img src="images/cart.png" class="w-8 cursor-pointer">
+    </nav>
+
+    <div class="text-white mt-48 max-w-lg">
+      <h1 class="text-6xl font-semibold leading-normal">Dive into <br> <span class="font-light"> the world of 3D </span></h1>
+      <p>Mangelo&#39;s is the first of its kind art gallery entirely for 3D
+        artists. <br> Your home for 3D, AR and VR art and multimedia. 
+      </p>
+
+      <div class="mt-10">
+        <a href="#" class="bg-green-500 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-green-500 hover:text-white duration-300 hover:border border border-transparent">Exhibitions</a>
+        <a href="#">Download <span class="text-lg inline-block hover:rotate-90 duration-300"> &#10148</span></a>  
+      </div>
+    </div>
+
+    <img src="images/hand.png" class="w-full xl:w-1/5 xl:absolute bottom-0 right-20">
+
+  </div>
+
+</body>
+</html>
